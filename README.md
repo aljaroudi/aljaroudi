@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Mohammed
-- 👀 I’m interested in ...
+- 👀 I’m interested in web and iOS development
 - 🌱 I’m currently learning ReactJS
-- 💞️ I’m looking to collaborate on mobile or web development
+- 💞️ I’m looking to collaborate on an iOS app
 - 📫 How to reach me: linkedin.com/aljaroudi
 
 <!---
