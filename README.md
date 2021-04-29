@@ -13,7 +13,7 @@
 
 <h3>IDEs</h3>
 <p>
-  <img alt="VSCode" src="https://img.shields.io/badge/VSCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;
+  <img alt="VSCode" src="https://img.shields.io/badge/VSCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"> 
   <img alt="Xcode" src="https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white">&nbsp;
   <img alt="PyCharm" src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white">&nbsp;
   <img alt="Vim" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white">
