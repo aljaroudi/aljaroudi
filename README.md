@@ -3,13 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat" alt="aljaroudi" /> </p>
 
-- 🔭 I’m currently working on **a computer-vision project**
+- 🔭 Currently working on **a computer-vision project**
 
-- 🌱 I’m currently learning **React**
+- 🌱 Currently learning **React**
 
 - 💬 Ask me about **Python, Swift, and VSCode**
 
-- 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/aljaroudi/)
+- 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/) [<img alt="E-mail" src="https://img.shields.io/badge/e--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:73927882+aljaroudi@users.noreply.github.com)
 
 <h3>IDEs</h3>
 <p>
