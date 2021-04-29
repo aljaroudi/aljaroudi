@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Python, Swift, and VSCode**
 
-- 📫 How to reach me: [linkedin.com/aljaroudi](https://www.linkedin.com/in/aljaroudi/)
+- 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/aljaroudi/)
 
 <h3>IDEs</h3>
 <p>
