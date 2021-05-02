@@ -12,7 +12,7 @@ body * {
 body {
     // margin: 0 auto;
     place-content: center;
-    background-color: #f1f1f1;
+    // background-color: #f1f1f1;
 }
 
 header * {
@@ -20,18 +20,22 @@ header * {
     color: aliceblue;
 }
 
-// header {
-//     font-weight: 400;
-//     font-size: 2rem;
-// }
+header {
+    // font-weight: 400;
+    // font-size: 2rem;
+    margin-top: 1em;
+    // background-color: aqua;
+}
 
 .tech {
     margin: 0 auto;
     width: 80vw;
 
-    h2,
-    h3,
     p {
+        text-justify: distribute;
+    }
+
+    * {
         text-align: center;
         color: aliceblue
     }
