@@ -1,1 +1,1 @@
-.tech h2,.tech h3,.tech p,header *{text-align:center;color:#f0f8ff}body,body *{font-family:"Ubuntu Mono",monospace;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}body{place-content:center;background-color:#f1f1f1}.tech{margin:0 auto;width:80vw}
+.tech *,header *{text-align:center;color:#f0f8ff}body,body *{font-family:"Ubuntu Mono",monospace;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden}body{place-content:center}header{margin-top:1em}.tech{margin:0 auto;width:80vw}.tech p{text-justify:distribute}
