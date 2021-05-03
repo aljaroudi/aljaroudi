@@ -25,16 +25,8 @@
         font-size: 1.2rem;
         word-wrap: break-word;
 
-        &.-ruby {
-            color: #D16262;
-        }
-
         &.-javascript {
             color: #DBB984;
-        }
-
-        &.-html {
-            color: #E27B60;
         }
 
         &.-react {
@@ -128,22 +120,11 @@
     }
 }
 
-body {
-    width: 95vw;
-    background-color: #192127;
-    padding-top: 100px;
-}
-
-body .code-editor {
-    width: 70%;
-    margin: 0 auto;
-}
-
 @media only screen and (max-width : 480px) {
     .code-editor {
         >.tabs>.title {
+            width: 100%;
             border-right: none;
-            width: 95%;
 
             &:after {
                 display: none;
