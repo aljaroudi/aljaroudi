@@ -6,39 +6,32 @@ body * {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     // text-align: center;
-    overflow-x: hidden;
+    // overflow-x: hidden;
+    color: aliceblue;
 }
 
 body {
+    width: 80vw;
+    max-width: 500px;
+    margin: 0 auto;
     // margin: 0 auto;
     place-content: center;
     // background-color: #f1f1f1;
+    background-color: #192127;
 }
 
 header * {
     text-align: center;
-    color: aliceblue;
-}
-
-header {
-    // font-weight: 400;
-    // font-size: 2rem;
-    margin-top: 1em;
-    // background-color: aqua;
 }
 
 div.tech {
-    margin: 0 auto;
-    width: 80vw;
-
-    p {
-        text-align: justify;
-    }
 
     * {
         text-align: center;
-        color: aliceblue
     }
 
+    .work {
+        text-align: justify;
+    }
 
 }
