@@ -27,12 +27,12 @@ header {
     // background-color: aqua;
 }
 
-.tech {
+div.tech {
     margin: 0 auto;
     width: 80vw;
 
     p {
-        text-justify: distribute;
+        text-align: justify;
     }
 
     * {
