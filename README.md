@@ -68,11 +68,8 @@
   <img alt="Vim" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white">
 </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en" alt="aljaroudi" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en" alt="aljaroudi" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aljaroudi&" alt="aljaroudi" /></p>
 
-<!---
-aljaroudi/aljaroudi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html)](https://github.com/anuraghazra/github-readme-stats)
