@@ -68,8 +68,7 @@
   <img alt="Vim" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=for-the-badge&logo=vim&logoColor=white">
 </p>
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en" alt="aljaroudi" /></p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en)](#)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=aljaroudi)](#)
 
-![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=aljaroudi)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html,ruby)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html,ruby)](#)
