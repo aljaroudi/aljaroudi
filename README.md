@@ -70,5 +70,4 @@
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en)](#)
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=aljaroudi)](#)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html,ruby)](#)
