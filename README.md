@@ -72,4 +72,4 @@
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=aljaroudi)](#)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html,ruby)](#)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aljaroudi&layout=compact&hide=html,ruby,jupyter%20notebook)](#)
