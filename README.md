@@ -3,9 +3,9 @@
 
 <p> <img style="display:none;" src="https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat" alt="aljaroudi" /> </p>
 
-- 🔭 Currently working on **a computer-vision project**
+- 🔭 Working on **a computer-vision project**
 
-- 🌱 Currently learning **React**
+- 🌱 Currently playing with **React** and **Svelte**
 
 - 💬 Ask me about **Python, Swift, and VSCode**
 
