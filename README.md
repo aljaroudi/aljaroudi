@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Mohammed</h1>
-<h3 align="center">A passionate full-stack developer</h3>
+<h3 align="center">Ninja Developer</h3>
 
 <p> <img style="display:none;" src="https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat" alt="aljaroudi" /> </p>
 
 - 🔭 Working on **a computer-vision project**
 
-- 🌱 Currently playing with **React** and **Svelte**
+- 🌱 Learning **Svelte** and **Go**
 
-- 💬 Ask me about **Python, Swift, and VSCode**
+- 💬 Ask me about **Python, Google Cloud, and SBCs**
 
 - 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/) [<img alt="E-mail" src="https://img.shields.io/badge/e--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:73927882+aljaroudi@users.noreply.github.com)
 
