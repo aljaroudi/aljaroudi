@@ -9,7 +9,7 @@
 
 - 💬 Ask me about **Python, Google Cloud, and SBCs**
 
-- 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/) [<img alt="E-mail" src="https://img.shields.io/badge/e--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:73927882+aljaroudi@users.noreply.github.com)
+- 📫 How to reach me: [<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/) [<img alt="E-mail" src="https://img.shields.io/badge/email-D14836?logo=gmail&logoColor=white">](mailto:73927882+aljaroudi@users.noreply.github.com)
 
 |            |                                                                                                                                                                                                                                                                                                                                                            |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
