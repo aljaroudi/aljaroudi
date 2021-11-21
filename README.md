@@ -25,7 +25,7 @@
 | Fun        | ![C++](https://img.shields.io/badge/-C++-00599C?logo=c) ![C++](https://img.shields.io/badge/-Go-white?logo=go) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?logo=Raspberry-Pi) ![Swift](https://img.shields.io/badge/Swift-%23FA7343.svg?&logo=swift&logoColor=white)                                                               |
 | Editors    | ![VSCode](https://img.shields.io/badge/VSCode-0078d7.svg?&logo=visual-studio-code&logoColor=white) ![Xcode](https://img.shields.io/badge/Xcode-007ACC?logo=Xcode&logoColor=white) ![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?logo=PyCharm&logoColor=white) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?logo=vim&logoColor=white) |
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en)](#)
+<!-- [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aljaroudi&show_icons=true&locale=en)](#) -->
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=aljaroudi)](#)
 
