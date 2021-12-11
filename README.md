@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Mohammed</h1>
+<h1 align="center">Hi 👋 I'm Mohammed</h1>
 <h3 align="center">🥷 Ninja Developer 👨🏻‍💻</h3>
 
 <p> <img style="display:none;" src="https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat" alt="aljaroudi" /> </p>
