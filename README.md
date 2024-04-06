@@ -1,12 +1,10 @@
 <h1 align="center">Hi 👋 I'm Mohammed</h1>
 <h3 align="center">🥷 Ninja Developer 👨🏻‍💻</h3>
 
-<p> <img style="display:none;" src="https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat" alt="aljaroudi" /> </p>
-
-[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/)
-
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/aljaroudi/) ![](https://komarev.com/ghpvc/?username=aljaroudi&label=Profile%20views&color=0e75b6&style=flat)
 
 ## Skills
+
 |            |                                                                                                                                                                                                                                                                                                                                                          |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Languages  | ![TypeScript](https://img.shields.io/badge/-TypeScript-white?logo=typescript&style=for-the-badge) ![Python](https://img.shields.io/badge/-Python-white?logo=Python&style=for-the-badge) ![Swift](https://img.shields.io/badge/Swift-white.svg?&logo=swift&style=for-the-badge) ![Go](https://img.shields.io/badge/-Go-white?logo=go&style=for-the-badge) |
