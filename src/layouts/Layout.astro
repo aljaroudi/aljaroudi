@@ -1,3 +1,8 @@
+---
+import "../styles/global.css"
+import background from "../assets/background.svg"
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,15 +13,31 @@
     <title>Astro Basics</title>
   </head>
   <body>
-    <slot />
+    <img id="background" src={background.src} alt="" fetchpriority="high" />
+    <main class="mx-auto flex flex-col w-full max-w-screen-lg">
+      <slot />
+    </main>
   </body>
 </html>
 
 <style>
-  @import "tailwindcss";
   html,
   body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
+      Arial, sans-serif;
+  }
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    z-index: -1;
+    filter: blur(100px);
   }
 </style>
