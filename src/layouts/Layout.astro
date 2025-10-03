@@ -1,0 +1,51 @@
+---
+import "../styles/global.css"
+import background from "../assets/background.svg"
+import { Font } from "astro:assets"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro Basics</title>
+    <Font cssVariable="--font-inter" preload />
+  </head>
+  <body>
+    <img id="background" src={background.src} alt="" fetchpriority="high" />
+    <main
+      class="flex flex-col gap-2 items-center px-2 mx-auto w-full max-w-screen-sm"
+    >
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  html,
+  body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: url("assets/cursor.png"), auto;
+  }
+  a,
+  button,
+  [role="button"] {
+    cursor: url("assets/pointer.png"), pointer;
+  }
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(100px);
+  }
+</style>

@@ -1,0 +1,23 @@
+---
+import Card from "../components/Card.astro"
+import Project from "../components/Project.astro"
+import SectionTitle from "../components/SectionTitle.astro"
+import Layout from "../layouts/Layout.astro"
+import { PROJECTS, PERSONAL } from "../lib/config"
+---
+
+<Layout>
+  <Card {...PERSONAL} />
+
+  <section class="flex flex-col w-full">
+    <SectionTitle title="About" />
+    <p>0.1&#x1D465; developer currently working on a DNA rewrite in Rust</p>
+  </section>
+
+  <section class="flex flex-col w-full">
+    <SectionTitle title="My Work" />
+    <div class="flex flex-col gap-4 justify-center items-center p-4">
+      {PROJECTS.map(project => <Project {...project} />)}
+    </div>
+  </section>
+</Layout>
