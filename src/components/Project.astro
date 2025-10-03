@@ -10,7 +10,7 @@ const { about, links, role } = Astro.props
 ---
 
 <div
-  class="flex overflow-hidden flex-col justify-between p-4 rounded-2xl border-2 shadow-xl backdrop-blur-md bg-zinc-200/20 text-zinc-900 border-zinc-300/50"
+  class="flex overflow-hidden flex-col justify-between p-4 w-full rounded-2xl border-2 shadow-xl backdrop-blur-md bg-zinc-200/20 text-zinc-900 border-zinc-300/50"
 >
   <div class="flex gap-2 items-baseline">
     <h3 class="font-semibold">{about.title}</h3>
@@ -52,5 +52,5 @@ const { about, links, role } = Astro.props
       {about.skills.map(text => <Badge {text} />)}
     </div>
   </div>
-  <p class="py-2 text-sm line-clamp-2">{about.description}</p>
+  <p class="py-2 text-sm">{about.description}</p>
 </div>

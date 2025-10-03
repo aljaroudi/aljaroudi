@@ -11,15 +11,12 @@ import { PROJECTS, PERSONAL } from "../lib/config"
 
   <section class="flex flex-col w-full">
     <SectionTitle title="About" />
-    <p>
-      0.1x full stack developer lacking any passion for building web and mobile
-      applications.
-    </p>
+    <p>0.1x developer currently working on a DNA rewrite in Rust</p>
   </section>
 
   <section class="flex flex-col w-full">
     <SectionTitle title="My Work" />
-    <div class="grid grid-cols-1 gap-4 justify-center items-center p-4">
+    <div class="flex flex-col gap-4 justify-center items-center p-4">
       {PROJECTS.map(project => <Project {...project} />)}
     </div>
   </section>

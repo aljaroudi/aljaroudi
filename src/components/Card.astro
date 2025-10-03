@@ -10,14 +10,14 @@ const { name, title, skills, links } = Astro.props
 ---
 
 <div
-  class="flex justify-between h-52 w-[400px] items-center p-4 m-8 border-2 shadow-xl rounded-2xl bg-zinc-200/20 dark:bg-zinc-500/20 text-zinc-900 border-zinc-300/50 dark:border-zinc-500/20 backdrop-blur-md overflow-hidden"
+  class="flex justify-between h-52 w-full max-w-[400px] items-center p-4 m-8 border-2 shadow-xl rounded-2xl bg-zinc-200/20 dark:bg-zinc-500/20 text-zinc-900 border-zinc-300/50 dark:border-zinc-500/20 backdrop-blur-md overflow-hidden"
 >
   <img
     src={Memoji.src}
     alt="Portrait"
     class="object-contain absolute left-16 h-full blur-lg -z-10"
-    height="1290"
-    width="1290"
+    height={1290}
+    width={1290}
   />
   <div class="flex flex-col w-full">
     <div class="flex flex-wrap gap-2 py-2">
@@ -39,8 +39,8 @@ const { name, title, skills, links } = Astro.props
       src={Memoji.src}
       alt="Portrait"
       class="object-contain z-10 h-full"
-      height="1290"
-      width="1290"
+      height={1290}
+      width={1290}
     />
   </div>
 </div>
