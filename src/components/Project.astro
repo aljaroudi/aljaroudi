@@ -1,0 +1,56 @@
+---
+import AppStoreIcon from "../assets/icons/app-store.svg"
+import GitHub from "../assets/icons/github.svg"
+import LinkIcon from "../assets/icons/link.svg"
+import Badge from "./Badge.astro"
+import type { Project } from "../lib/config"
+type Props = Project
+
+const { about, links, role } = Astro.props
+---
+
+<div
+  class="flex overflow-hidden flex-col justify-between p-4 rounded-2xl border-2 shadow-xl backdrop-blur-md bg-zinc-200/20 text-zinc-900 border-zinc-300/50"
+>
+  <div class="flex gap-2 items-baseline">
+    <h3 class="font-semibold">{about.title}</h3>
+    {
+      links.site && (
+        <a href={links.site} target="_blank" class="text-sm">
+          <LinkIcon />
+        </a>
+      )
+    }
+    {
+      links.repo && (
+        <a href={links.repo} target="_blank" class="text-sm">
+          <GitHub />
+        </a>
+      )
+    }
+    {
+      links.appStore && (
+        <a href={links.appStore} target="_blank" class="text-sm">
+          <AppStoreIcon />
+        </a>
+      )
+    }
+    <p class="ml-auto text-zinc-800/50">{about.year}</p>
+  </div>
+
+  {
+    (role.title?.length || role.org?.length) && (
+      <div class="flex justify-between items-baseline text-sm">
+        <p>{role.title ?? ""}</p>
+        <p class="text-zinc-800/50">{role.org ?? ""}</p>
+      </div>
+    )
+  }
+
+  <div class="flex flex-col w-full">
+    <div class="flex flex-wrap gap-2 py-2">
+      {about.skills.map(text => <Badge {text} />)}
+    </div>
+  </div>
+  <p class="py-2 text-sm line-clamp-2">{about.description}</p>
+</div>

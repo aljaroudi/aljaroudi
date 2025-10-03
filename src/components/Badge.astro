@@ -1,0 +1,16 @@
+---
+import type { Skill } from "../lib/config"
+import { SKILLS } from "../lib/config"
+
+type Props = {
+  text: Skill | (string & {})
+}
+
+const { text } = Astro.props
+const icon = SKILLS.find(skill => skill.name === text)?.icon
+---
+
+<span class="flex gap-1 items-center px-2 py-1 text-xs rounded-md bg-white/50">
+  {icon && <img src={icon.src} alt={text} />}
+  {text}
+</span>
