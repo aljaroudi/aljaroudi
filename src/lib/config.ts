@@ -30,6 +30,23 @@ export const PROJECTS = [
   },
   {
     about: {
+      title: "CStyle",
+      description: "Fastest way to edit your photos with AI",
+      year: "2025",
+      skills: ["SwiftUI", "AI"],
+    },
+    links: {
+      site: undefined,
+      repo: undefined,
+      appStore: undefined,
+    },
+    role: {
+      title: "iOS Developer",
+      org: undefined,
+    },
+  },
+  {
+    about: {
       title: "Nouvi",
       description: "AI food diary app",
       year: "2025",
@@ -120,7 +137,7 @@ type ProjectDef = {
   links: {
     site: string | undefined
     repo: string | undefined
-    appStore: `https://apps.apple.com/app/${string}/id${string}` | undefined
+    appStore: `https://apps.apple.com/app/${string}/id${number}` | undefined
   }
   role: {
     title: string | undefined
