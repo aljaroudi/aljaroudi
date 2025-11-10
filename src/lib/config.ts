@@ -30,15 +30,15 @@ export const PROJECTS = [
   },
   {
     about: {
-      title: "CStyle",
-      description: "Fastest way to edit your photos with AI",
+      title: "StoryFriends",
+      description: "Personalized AI storybooks",
       year: "2025",
-      skills: ["SwiftUI", "AI"],
+      skills: ["SwiftUI", "LLMs", "Firebase"],
     },
     links: {
       site: undefined,
       repo: undefined,
-      appStore: undefined,
+      appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
     },
     role: {
       title: "iOS Developer",
