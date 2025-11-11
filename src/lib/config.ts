@@ -30,6 +30,23 @@ export const PROJECTS = [
   },
   {
     about: {
+      title: "Zoomat",
+      description: "Simple ticketing system for private events",
+      year: "2025",
+      skills: ["SwiftUI", "Swift Data"],
+    },
+    links: {
+      site: undefined,
+      repo: "https://github.com/aljaroudi/zoomat",
+      appStore: "https://apps.apple.com/app/zoomat/id6755158572",
+    },
+    role: {
+      title: "iOS Developer",
+      org: undefined,
+    },
+  },
+  {
+    about: {
       title: "StoryFriends",
       description: "Personalized AI storybooks",
       year: "2025",
