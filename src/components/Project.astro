@@ -4,6 +4,7 @@ import GitHub from "../assets/icons/github.svg"
 import LinkIcon from "../assets/icons/link.svg"
 import Badge from "./Badge.astro"
 import type { Project } from "../lib/config"
+import { SKILLS } from "../lib/icons"
 type Props = Project
 
 const { about, links, role } = Astro.props
@@ -12,40 +13,60 @@ const { about, links, role } = Astro.props
 <div
   class="flex overflow-hidden flex-col justify-between px-4 py-3 w-full rounded-2xl border-2 shadow-xl backdrop-blur-md bg-zinc-200/20 text-zinc-900 border-zinc-300/50"
 >
-  <div class="flex gap-2 items-baseline">
-    <h3 class="font-semibold">{about.title}</h3>
+  <div class="flex gap-2">
     {
-      links.site && (
-        <a href={links.site} target="_blank" class="text-sm">
-          <LinkIcon />
-        </a>
+      links.logo ? (
+        <img
+          src={links.logo}
+          alt="Logo"
+          class="size-20 rounded-squircle"
+          width={360}
+          height={360}
+        />
+      ) : (
+        <div class="size-20 rounded-squircle bg-linear-to-bl from-red-200/30 to-amber-200/30 flex items-center justify-center">
+          <img
+            src={
+              SKILLS.find(skill => skill.name === about.skills[0]!)!.icon!.src
+            }
+            alt={about.skills[0]!}
+            class="size-10"
+          />
+        </div>
       )
     }
-    {
-      links.repo && (
-        <a href={links.repo} target="_blank" class="text-sm">
-          <GitHub />
-        </a>
-      )
-    }
-    {
-      links.appStore && (
-        <a href={links.appStore} target="_blank" class="text-sm">
-          <AppStoreIcon />
-        </a>
-      )
-    }
-    <p class="ml-auto text-zinc-800/50">{about.year}</p>
-  </div>
-
-  {
-    (role.title?.length || role.org?.length) && (
-      <div class="flex justify-between items-baseline text-sm">
-        <p>{role.title ?? ""}</p>
-        <p class="text-zinc-800/50">{role.org ?? ""}</p>
+    <div class="flex flex-col gap-1 text-sm h-full mr-auto">
+      <h3 class="font-semibold text-base">{about.title}</h3>
+      <p>{role.title}</p>
+      <p class="text-zinc-800/50">{role.org ?? ""}</p>
+    </div>
+    <div class="flex flex-col gap-1 items-end">
+      <p class="text-zinc-800/50">{about.year}</p>
+      <div class="flex gap-2">
+        {
+          links.site && (
+            <a href={links.site} target="_blank" class="text-sm">
+              <LinkIcon />
+            </a>
+          )
+        }
+        {
+          links.repo && (
+            <a href={links.repo} target="_blank" class="text-sm">
+              <GitHub />
+            </a>
+          )
+        }
+        {
+          links.appStore && (
+            <a href={links.appStore} target="_blank" class="text-sm">
+              <AppStoreIcon />
+            </a>
+          )
+        }
       </div>
-    )
-  }
+    </div>
+  </div>
 
   <div class="flex flex-col w-full">
     <div class="flex flex-wrap gap-2 py-2">

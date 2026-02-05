@@ -25,6 +25,13 @@ import { Font } from "astro:assets"
 </html>
 
 <style is:global>
+  a,
+  button,
+  [role="button"] {
+    cursor: url("/assets/pointer.png"), pointer;
+  }
+</style>
+<style>
   html,
   body {
     width: 100dvw;
@@ -33,11 +40,6 @@ import { Font } from "astro:assets"
     flex-direction: column;
     align-items: center;
     cursor: url("/assets/cursor.png"), auto;
-  }
-  a,
-  button,
-  [role="button"] {
-    cursor: url("/assets/pointer.png"), pointer;
   }
   #background {
     position: fixed;

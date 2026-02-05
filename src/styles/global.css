@@ -3,3 +3,9 @@
 @theme inline {
   --font-sans: var(--font-inter);
 }
+
+@layer utilities {
+  .rounded-squircle {
+    clip-path: url("#squircleClip");
+  }
+}

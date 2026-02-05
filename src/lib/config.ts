@@ -22,10 +22,29 @@ export const PROJECTS = [
       site: "https://ecorithms.com",
       repo: undefined,
       appStore: undefined,
+      logo: '/assets/logos/wasteaid.png',
     },
     role: {
       title: "Co-Founder & CTO",
       org: "Ecorithms Inc.",
+    },
+  },
+  {
+    about: {
+      title: "Lingko",
+      description: "A polyglot's best companion",
+      year: "2025",
+      skills: ["SwiftUI", "Swift Data"],
+    },
+    links: {
+      site: undefined,
+      repo: "https://github.com/aljaroudi/lingko",
+      appStore: "https://apps.apple.com/app/zoomat/id6755158572",
+      logo: '/assets/logos/lingko.png',
+    },
+    role: {
+      title: "iOS Developer",
+      org: undefined,
     },
   },
   {
@@ -39,10 +58,11 @@ export const PROJECTS = [
       site: undefined,
       repo: "https://github.com/aljaroudi/zoomat",
       appStore: "https://apps.apple.com/app/zoomat/id6755158572",
+      logo: '/assets/logos/zoomat.png',
     },
     role: {
       title: "iOS Developer",
-      org: undefined,
+      org: "Solo",
     },
   },
   {
@@ -56,6 +76,7 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
+      logo: "/assets/logos/storyfriends.png",
     },
     role: {
       title: "iOS Developer",
@@ -73,10 +94,11 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: "https://apps.apple.com/app/nouvi/id6737724740",
+      logo: '/assets/logos/nouvi.png',
     },
     role: {
       title: "iOS Developer",
-      org: undefined,
+      org: "Solo",
     },
   },
   {
@@ -90,6 +112,7 @@ export const PROJECTS = [
       site: "https://t3lepathy.vercel.app",
       repo: "https://github.com/aljaroudi/t3lepathy",
       appStore: undefined,
+      logo: undefined,
     },
     role: {
       title: "Frontend Developer",
@@ -107,10 +130,11 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: undefined,
+      logo: '/assets/logos/itotal.png',
     },
     role: {
       title: "Full Stack Developer",
-      org: undefined,
+      org: "Solo",
     },
   },
   {
@@ -125,6 +149,7 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: undefined,
+      logo: undefined,
     },
     role: {
       title: "Trainee",
@@ -155,6 +180,7 @@ type ProjectDef = {
     site: string | undefined
     repo: string | undefined
     appStore: `https://apps.apple.com/app/${string}/id${number}` | undefined
+    logo: `/assets/logos/${string}.png` | undefined
   }
   role: {
     title: string | undefined

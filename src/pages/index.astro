@@ -2,6 +2,7 @@
 import Card from "../components/Card.astro"
 import Project from "../components/Project.astro"
 import SectionTitle from "../components/SectionTitle.astro"
+import Squircle from "../components/Squircle.astro"
 import Layout from "../layouts/Layout.astro"
 import { PROJECTS, PERSONAL } from "../lib/config"
 ---
@@ -20,4 +21,5 @@ import { PROJECTS, PERSONAL } from "../lib/config"
       {PROJECTS.map(project => <Project {...project} />)}
     </div>
   </section>
+  <Squircle />
 </Layout>
