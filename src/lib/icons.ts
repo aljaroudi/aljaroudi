@@ -16,10 +16,11 @@ import ObjectiveCIcon from "../assets/icons/objective-c.svg"
 import ConvexIcon from "../assets/icons/convex.svg"
 import TanStackIcon from "../assets/icons/tanstack.svg"
 import TailwindIcon from "../assets/icons/tailwind.svg"
+import AppleIntelligenceIcon from "../assets/icons/apple-intelligence.png"
 
 export type SkillDef = {
   name: string
-  icon: (SvgComponent & ImageMetadata) | undefined
+  icon: (SvgComponent & ImageMetadata) | ImageMetadata | undefined
 }
 
 export const SKILLS = [
@@ -119,4 +120,8 @@ export const SKILLS = [
     name: "Tailwind",
     icon: TailwindIcon,
   },
+  {
+    name: "Apple Intelligence",
+    icon: AppleIntelligenceIcon,
+  }
 ] as const satisfies SkillDef[]

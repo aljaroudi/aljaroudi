@@ -11,6 +11,6 @@ const icon = SKILLS.find(skill => skill.name === text)?.icon
 ---
 
 <span class="flex gap-1 items-center px-2 py-1 text-xs rounded-md bg-white/50">
-  {icon && <img src={icon.src} alt={text} />}
+  {icon && <img src={icon.src} alt={text} height={16} width={16} />}
   {text}
 </span>

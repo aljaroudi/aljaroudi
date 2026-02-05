@@ -6,6 +6,7 @@ import ZoomatLogo from "../assets/logos/zoomat.png"
 import StoryFriendsLogo from "../assets/logos/storyfriends.png"
 import NouviLogo from "../assets/logos/nouvi.png"
 import iTotalLogo from "../assets/logos/itotal.png"
+import SvelteLogo from "../assets/logos/svelte.png"
 
 export const PERSONAL = {
   name: "Mohammed",
@@ -33,7 +34,7 @@ export const PROJECTS = [
     },
     role: {
       title: "Co-Founder & CTO",
-      org: "Ecorithms Inc.",
+      org: "🇺🇸 Ecorithms Inc.",
     },
   },
   {
@@ -59,7 +60,7 @@ export const PROJECTS = [
       title: "Lingko",
       description: "A polyglot's best companion",
       year: "2026",
-      skills: ["SwiftUI", "Swift Data"],
+      skills: ["SwiftUI", "Swift Data", "Apple Intelligence"],
     },
     links: {
       site: undefined,
@@ -137,7 +138,7 @@ export const PROJECTS = [
       site: "https://t3lepathy.vercel.app",
       repo: "https://github.com/aljaroudi/t3lepathy",
       appStore: undefined,
-      logo: undefined,
+      logo: SvelteLogo,
     },
     role: {
       title: "Frontend Developer",
