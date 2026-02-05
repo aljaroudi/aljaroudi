@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets"
 import AppStoreIcon from "../assets/icons/app-store.svg"
 import GitHub from "../assets/icons/github.svg"
 import LinkIcon from "../assets/icons/link.svg"
@@ -16,7 +17,7 @@ const { about, links, role } = Astro.props
   <div class="flex gap-2">
     {
       links.logo ? (
-        <img
+        <Image
           src={links.logo}
           alt="Logo"
           class="size-20 rounded-squircle"

@@ -1,4 +1,11 @@
 import type { SKILLS } from "./icons"
+import WasteAIDLogo from "../assets/logos/wasteaid.png"
+import MazeezLogo from "../assets/logos/mazeez.png"
+import LingkoLogo from "../assets/logos/lingko.png"
+import ZoomatLogo from "../assets/logos/zoomat.png"
+import StoryFriendsLogo from "../assets/logos/storyfriends.png"
+import NouviLogo from "../assets/logos/nouvi.png"
+import iTotalLogo from "../assets/logos/itotal.png"
 
 export const PERSONAL = {
   name: "Mohammed",
@@ -22,7 +29,7 @@ export const PROJECTS = [
       site: "https://ecorithms.com",
       repo: undefined,
       appStore: undefined,
-      logo: '/assets/logos/wasteaid.png',
+      logo: WasteAIDLogo,
     },
     role: {
       title: "Co-Founder & CTO",
@@ -31,16 +38,34 @@ export const PROJECTS = [
   },
   {
     about: {
+      title: "Mazeez",
+      description: "Food discovery and pricing comparison",
+      year: "2026",
+      skills: ["TanStack", "Convex", "Tailwind", "PWA"],
+    },
+    links: {
+      site: undefined,
+      repo: undefined,
+      appStore: undefined,
+      logo: MazeezLogo,
+    },
+    role: {
+      title: "Full Stack Developer",
+      org: "Solo",
+    },
+  },
+  {
+    about: {
       title: "Lingko",
       description: "A polyglot's best companion",
-      year: "2025",
+      year: "2026",
       skills: ["SwiftUI", "Swift Data"],
     },
     links: {
       site: undefined,
       repo: "https://github.com/aljaroudi/lingko",
       appStore: "https://apps.apple.com/app/zoomat/id6755158572",
-      logo: '/assets/logos/lingko.png',
+      logo: LingkoLogo,
     },
     role: {
       title: "iOS Developer",
@@ -58,7 +83,7 @@ export const PROJECTS = [
       site: undefined,
       repo: "https://github.com/aljaroudi/zoomat",
       appStore: "https://apps.apple.com/app/zoomat/id6755158572",
-      logo: '/assets/logos/zoomat.png',
+      logo: ZoomatLogo,
     },
     role: {
       title: "iOS Developer",
@@ -76,7 +101,7 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
-      logo: "/assets/logos/storyfriends.png",
+      logo: StoryFriendsLogo,
     },
     role: {
       title: "iOS Developer",
@@ -94,7 +119,7 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: "https://apps.apple.com/app/nouvi/id6737724740",
-      logo: '/assets/logos/nouvi.png',
+      logo: NouviLogo,
     },
     role: {
       title: "iOS Developer",
@@ -130,7 +155,7 @@ export const PROJECTS = [
       site: undefined,
       repo: undefined,
       appStore: undefined,
-      logo: '/assets/logos/itotal.png',
+      logo: iTotalLogo,
     },
     role: {
       title: "Full Stack Developer",
@@ -180,7 +205,7 @@ type ProjectDef = {
     site: string | undefined
     repo: string | undefined
     appStore: `https://apps.apple.com/app/${string}/id${number}` | undefined
-    logo: `/assets/logos/${string}.png` | undefined
+    logo: ImageMetadata | undefined
   }
   role: {
     title: string | undefined

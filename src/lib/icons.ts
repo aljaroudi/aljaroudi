@@ -13,6 +13,9 @@ import TypeScriptIcon from "../assets/icons/typescript.svg"
 import NextIcon from "../assets/icons/nextjs.svg"
 import TRPCIcon from "../assets/icons/trpc.svg"
 import ObjectiveCIcon from "../assets/icons/objective-c.svg"
+import ConvexIcon from "../assets/icons/convex.svg"
+import TanStackIcon from "../assets/icons/tanstack.svg"
+import TailwindIcon from "../assets/icons/tailwind.svg"
 
 export type SkillDef = {
   name: string
@@ -103,5 +106,17 @@ export const SKILLS = [
   {
     name: "Go",
     icon: GoIcon,
+  },
+  {
+    name: "Convex",
+    icon: ConvexIcon,
+  },
+  {
+    name: "TanStack",
+    icon: TanStackIcon,
+  },
+  {
+    name: "Tailwind",
+    icon: TailwindIcon,
   },
 ] as const satisfies SkillDef[]
