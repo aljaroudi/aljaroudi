@@ -1,12 +1,13 @@
-import type { SKILLS } from "./icons"
-import WasteAIDLogo from "../assets/logos/wasteaid.png"
-import MazeezLogo from "../assets/logos/mazeez.png"
-import LingkoLogo from "../assets/logos/lingko.png"
-import ZoomatLogo from "../assets/logos/zoomat.png"
-import StoryFriendsLogo from "../assets/logos/storyfriends.png"
-import NouviLogo from "../assets/logos/nouvi.png"
 import iTotalLogo from "../assets/logos/itotal.png"
+import LingkoLogo from "../assets/logos/lingko.png"
+import MazeezLogo from "../assets/logos/mazeez.png"
+import NouviLogo from "../assets/logos/nouvi.png"
+import TMVLogo from "../assets/logos/tmv.png"
+import StoryFriendsLogo from "../assets/logos/storyfriends.png"
 import SvelteLogo from "../assets/logos/svelte.png"
+import WasteAIDLogo from "../assets/logos/wasteaid.png"
+import ZoomatLogo from "../assets/logos/zoomat.png"
+import type { SKILLS } from "./icons"
 
 export const PERSONAL = {
   name: "Mohammed",
@@ -19,6 +20,24 @@ export const PERSONAL = {
 } as const satisfies PersonalDef
 
 export const PROJECTS = [
+  {
+    about: {
+      title: "TracFleet",
+      description: "Unified fleet intelligence platform",
+      year: "2026–Present",
+      skills: ["TanStack", "Postgres", "Computer Vision", "Route Optimization"],
+    },
+    links: {
+      site: "https://tmv.ai",
+      repo: undefined,
+      appStore: undefined,
+      logo: TMVLogo,
+    },
+    role: {
+      title: "CTO",
+      org: "🇺🇸 Top Mobile Vision",
+    },
+  },
   {
     about: {
       title: "WasteAID",
@@ -34,7 +53,7 @@ export const PROJECTS = [
     },
     role: {
       title: "Co-Founder & CTO",
-      org: "🇺🇸 Ecorithms Inc.",
+      org: "🇺🇸 Ecorithms Inc",
     },
   },
   {
@@ -42,10 +61,10 @@ export const PROJECTS = [
       title: "Mazeez",
       description: "Food discovery and pricing comparison",
       year: "2026",
-      skills: ["TanStack", "Convex", "Tailwind", "PWA"],
+      skills: ["TanStack", "Convex", "Tailwind", "PWA", "LLMs"],
     },
     links: {
-      site: undefined,
+      site: "https://mazeez.app",
       repo: undefined,
       appStore: undefined,
       logo: MazeezLogo,
@@ -65,12 +84,12 @@ export const PROJECTS = [
     links: {
       site: undefined,
       repo: "https://github.com/aljaroudi/lingko",
-      appStore: "https://apps.apple.com/app/zoomat/id6755158572",
+      appStore: "https://apps.apple.com/app/lingko/id6757619924",
       logo: LingkoLogo,
     },
     role: {
       title: "iOS Developer",
-      org: undefined,
+      org: "Solo",
     },
   },
   {
@@ -112,7 +131,7 @@ export const PROJECTS = [
   {
     about: {
       title: "Nouvi",
-      description: "AI food diary app",
+      description: "AI food diary",
       year: "2025",
       skills: ["SwiftUI", "Swift Data", "LLMs"],
     },

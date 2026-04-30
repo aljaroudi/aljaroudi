@@ -17,6 +17,7 @@ import ConvexIcon from "../assets/icons/convex.svg"
 import TanStackIcon from "../assets/icons/tanstack.svg"
 import TailwindIcon from "../assets/icons/tailwind.svg"
 import AppleIntelligenceIcon from "../assets/icons/apple-intelligence.png"
+import RoutingIcon from "../assets/icons/routing.svg"
 
 export type SkillDef = {
   name: string
@@ -123,5 +124,9 @@ export const SKILLS = [
   {
     name: "Apple Intelligence",
     icon: AppleIntelligenceIcon,
-  }
+  },
+  {
+    name: "Route Optimization",
+    icon: RoutingIcon,
+  },
 ] as const satisfies SkillDef[]
