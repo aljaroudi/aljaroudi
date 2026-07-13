@@ -2,9 +2,10 @@ import iTotalLogo from "../assets/logos/itotal.png"
 import LingkoLogo from "../assets/logos/lingko.png"
 import MazeezLogo from "../assets/logos/mazeez.png"
 import NouviLogo from "../assets/logos/nouvi.png"
-import TMVLogo from "../assets/logos/tmv.png"
 import StoryFriendsLogo from "../assets/logos/storyfriends.png"
 import SvelteLogo from "../assets/logos/svelte.png"
+import TMVLogo from "../assets/logos/tmv.png"
+import TulkLogo from "../assets/logos/tulk.png"
 import WasteAIDLogo from "../assets/logos/wasteaid.png"
 import ZoomatLogo from "../assets/logos/zoomat.png"
 import type { SKILLS } from "./icons"
@@ -54,6 +55,24 @@ export const PROJECTS = [
     role: {
       title: "Co-Founder & CTO",
       org: "🇺🇸 Ecorithms Inc",
+    },
+  },
+  {
+    about: {
+      title: "Tulk",
+      description: "World's most accurate translator",
+      year: "2026",
+      skills: ["SwiftUI", "Swift Data"],
+    },
+    links: {
+      site: undefined,
+      repo: undefined,
+      appStore: "https://apps.apple.com/app/tulk/id6777465738",
+      logo: TulkLogo,
+    },
+    role: {
+      title: "iOS Developer",
+      org: "Solo",
     },
   },
   {
