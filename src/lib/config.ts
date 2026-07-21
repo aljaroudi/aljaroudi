@@ -83,7 +83,7 @@ export const PROJECTS = [
       skills: ["TanStack", "Convex", "Tailwind", "PWA", "LLMs"],
     },
     links: {
-      site: "https://mazeez.app",
+      site: undefined,
       repo: undefined,
       appStore: undefined,
       logo: MazeezLogo,
@@ -96,7 +96,7 @@ export const PROJECTS = [
   {
     about: {
       title: "Lingko",
-      description: "A polyglot's best companion",
+      description: "Private, fast, and detailed translations",
       year: "2026",
       skills: ["SwiftUI", "Swift Data", "Apple Intelligence"],
     },
@@ -107,7 +107,7 @@ export const PROJECTS = [
       logo: LingkoLogo,
     },
     role: {
-      title: "iOS Developer",
+      title: "Mobile Developer",
       org: "Solo",
     },
   },
