@@ -65,7 +65,7 @@ export const PROJECTS = [
       skills: ["SwiftUI", "Swift Data"],
     },
     links: {
-      site: undefined,
+      site: "https://tulk.app",
       repo: undefined,
       appStore: "https://apps.apple.com/app/tulk/id6777465738",
       logo: TulkLogo,
@@ -83,7 +83,7 @@ export const PROJECTS = [
       skills: ["TanStack", "Convex", "Tailwind", "PWA", "LLMs"],
     },
     links: {
-      site: undefined,
+      site: "https://mazeez.app",
       repo: undefined,
       appStore: undefined,
       logo: MazeezLogo,
@@ -137,7 +137,7 @@ export const PROJECTS = [
       skills: ["SwiftUI", "LLMs", "Firebase"],
     },
     links: {
-      site: undefined,
+      site: "https://storyfriends.app",
       repo: undefined,
       appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
       logo: StoryFriendsLogo,
