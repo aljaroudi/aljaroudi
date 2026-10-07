@@ -1,5 +1,7 @@
 import type { SvgComponent } from "astro/types"
 import AppStoreIcon from "../assets/icons/app-store.svg"
+import AppleIntelligenceIcon from "../assets/icons/apple-intelligence.png"
+import JetpackComposeIcon from "../assets/icons/jetpackcompose.svg"
 import GoIcon from "../assets/icons/go.svg"
 import PostgresIcon from "../assets/icons/postgres.svg"
 import SwiftIcon from "../assets/icons/swift.svg"
@@ -16,117 +18,38 @@ import ObjectiveCIcon from "../assets/icons/objective-c.svg"
 import ConvexIcon from "../assets/icons/convex.svg"
 import TanStackIcon from "../assets/icons/tanstack.svg"
 import TailwindIcon from "../assets/icons/tailwind.svg"
-import AppleIntelligenceIcon from "../assets/icons/apple-intelligence.png"
 import RoutingIcon from "../assets/icons/routing.svg"
 
-export type SkillDef = {
-  name: string
-  icon: (SvgComponent & ImageMetadata) | ImageMetadata | undefined
-}
-
-export const SKILLS = [
-  {
-    name: "App Store",
-    icon: AppStoreIcon,
-  },
-  {
-    name: "Web",
-    icon: undefined,
-  },
-  {
-    name: "Mobile",
-    icon: undefined,
-  },
-  {
-    name: "Cloud",
-    icon: undefined,
-  },
-  {
-    name: "AI",
-    icon: undefined,
-  },
-  {
-    name: "Postgres",
-    icon: PostgresIcon,
-  },
-  {
-    name: "Svelte",
-    icon: SvelteIcon,
-  },
-  {
-    name: "SwiftUI",
-    icon: SwiftIcon,
-  },
-  {
-    name: "Firebase",
-    icon: FirebaseIcon,
-  },
-  {
-    name: "Objective-C",
-    icon: ObjectiveCIcon,
-  },
-  {
-    name: "LLMs",
-    icon: GeminiIcon,
-  },
-  {
-    name: "PWA",
-    icon: PWAIcon,
-  },
-  {
-    name: "Bipedal Locomotion",
-    icon: FootprintIcon,
-  },
-  {
-    name: "Python",
-    icon: PythonIcon,
-  },
-  {
-    name: "TypeScript",
-    icon: TypeScriptIcon,
-  },
-  {
-    name: "Computer Vision",
-    icon: GeminiIcon,
-  },
-  {
-    name: "Swift Data",
-    icon: SwiftIcon,
-  },
-  {
-    name: "Swift",
-    icon: SwiftIcon,
-  },
-  {
-    name: "Next.js",
-    icon: NextIcon,
-  },
-  {
-    name: "tRPC",
-    icon: TRPCIcon,
-  },
-  {
-    name: "Go",
-    icon: GoIcon,
-  },
-  {
-    name: "Convex",
-    icon: ConvexIcon,
-  },
-  {
-    name: "TanStack",
-    icon: TanStackIcon,
-  },
-  {
-    name: "Tailwind",
-    icon: TailwindIcon,
-  },
-  {
-    name: "Apple Intelligence",
-    icon: AppleIntelligenceIcon,
-  },
-  {
-    name: "Route Optimization",
-    icon: RoutingIcon,
-  },
-] as const satisfies SkillDef[]
+export const SKILLS = {
+  "App Store": AppStoreIcon,
+  Web: undefined,
+  Mobile: undefined,
+  Cloud: undefined,
+  AI: undefined,
+  Postgres: PostgresIcon,
+  Svelte: SvelteIcon,
+  SwiftUI: SwiftIcon,
+  Firebase: FirebaseIcon,
+  "Objective-C": ObjectiveCIcon,
+  LLMs: GeminiIcon,
+  Agents: GeminiIcon,
+  PWA: PWAIcon,
+  "Bipedal Locomotion": FootprintIcon,
+  Python: PythonIcon,
+  TypeScript: TypeScriptIcon,
+  "Computer Vision": GeminiIcon,
+  "Swift Data": SwiftIcon,
+  Swift: SwiftIcon,
+  "Next.js": NextIcon,
+  tRPC: TRPCIcon,
+  Go: GoIcon,
+  Convex: ConvexIcon,
+  TanStack: TanStackIcon,
+  Tailwind: TailwindIcon,
+  "Apple Intelligence": AppleIntelligenceIcon,
+  "Route Optimization": RoutingIcon,
+  Kotlin: JetpackComposeIcon,
+} as const satisfies Record<
+  string,
+  (SvgComponent & ImageMetadata) | ImageMetadata | undefined
+>

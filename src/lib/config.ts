@@ -80,12 +80,12 @@ export const PROJECTS = [
       title: "Mazeez",
       description: "Food discovery and pricing comparison",
       year: "2026",
-      skills: ["TanStack", "Convex", "Tailwind", "PWA", "LLMs"],
+      skills: ["Swift", "Kotlin", "TanStack", "Convex", "PWA", "Agents"],
     },
     links: {
       site: "https://mazeez.app",
       repo: undefined,
-      appStore: undefined,
+      appStore: "https://apps.apple.com/app/mazeez/id6811322560",
       logo: MazeezLogo,
     },
     role: {
@@ -95,20 +95,20 @@ export const PROJECTS = [
   },
   {
     about: {
-      title: "Lingko",
-      description: "Private, fast, and detailed translations",
-      year: "2026",
-      skills: ["SwiftUI", "Swift Data", "Apple Intelligence"],
+      title: "StoryFriends",
+      description: "Personalized AI storybooks",
+      year: "2025",
+      skills: ["SwiftUI", "LLMs", "Firebase"],
     },
     links: {
-      site: undefined,
-      repo: "https://github.com/aljaroudi/lingko",
-      appStore: "https://apps.apple.com/app/lingko/id6757619924",
-      logo: LingkoLogo,
+      site: "https://storyfriends.app",
+      repo: undefined,
+      appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
+      logo: StoryFriendsLogo,
     },
     role: {
-      title: "Mobile Developer",
-      org: "Solo",
+      title: "iOS Developer",
+      org: undefined,
     },
   },
   {
@@ -131,20 +131,20 @@ export const PROJECTS = [
   },
   {
     about: {
-      title: "StoryFriends",
-      description: "Personalized AI storybooks",
-      year: "2025",
-      skills: ["SwiftUI", "LLMs", "Firebase"],
+      title: "Lingko",
+      description: "Private, fast, and detailed translations",
+      year: "2026",
+      skills: ["SwiftUI", "Swift Data", "Apple Intelligence"],
     },
     links: {
-      site: "https://storyfriends.app",
-      repo: undefined,
-      appStore: "https://apps.apple.com/app/storyfriends/id6752445961",
-      logo: StoryFriendsLogo,
+      site: undefined,
+      repo: "https://github.com/aljaroudi/lingko",
+      appStore: "https://apps.apple.com/app/lingko/id6757619924",
+      logo: LingkoLogo,
     },
     role: {
-      title: "iOS Developer",
-      org: undefined,
+      title: "Mobile Developer",
+      org: "Solo",
     },
   },
   {
@@ -238,7 +238,7 @@ type ProjectDef = {
     title: string
     description: string
     year: string
-    skills: ((typeof SKILLS)[number]["name"] | (string & {}))[]
+    skills: (keyof typeof SKILLS | (string & {}))[]
   }
   links: {
     site: string | undefined
