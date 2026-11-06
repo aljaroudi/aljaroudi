@@ -7,6 +7,7 @@ import SvelteLogo from "../assets/logos/svelte.png"
 import TMVLogo from "../assets/logos/tmv.png"
 import TulkLogo from "../assets/logos/tulk.png"
 import WasteAIDLogo from "../assets/logos/wasteaid.png"
+import MuntathirLogo from "../assets/logos/muntathir.png"
 import ZoomatLogo from "../assets/logos/zoomat.png"
 import type { SKILLS } from "./icons"
 
@@ -55,6 +56,24 @@ export const PROJECTS = [
     role: {
       title: "Co-Founder & CTO",
       org: "🇺🇸 Ecorithms Inc",
+    },
+  },
+  {
+    about: {
+      title: "Muntathir منتظِر",
+      description: "Prayer astronomy, scripture with semantic search, & widgets",
+      year: "2026",
+      skills: ["SwiftUI", "Swift Data"],
+    },
+    links: {
+      site: "https://منتظر.com",
+      repo: undefined,
+      appStore: "https://apps.apple.com/app/muntathir/id6824304362",
+      logo: MuntathirLogo,
+    },
+    role: {
+      title: "iOS Developer",
+      org: "Solo",
     },
   },
   {
